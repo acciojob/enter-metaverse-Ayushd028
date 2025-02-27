@@ -1,7 +1,4 @@
 document.getElementById("enterBtn").addEventListener("click", function() {
-            const statusElement = document.getElementById("status");
-            const newElement = document.createElement("h1");
-            newElement.id = "status";
-            newElement.textContent = "Entered Metaverse";
-            statusElement.replaceWith(newElement);
-});
+            const statusContainer = document.getElementById("status");
+            statusContainer.innerHTML = "<h1>Entered Metaverse</h1>"; 
+        });
